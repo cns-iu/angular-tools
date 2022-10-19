@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cns-iu/ngxs-tools": ["libs/ngxs-tools/src/index.ts"]
+      "@cns-iu/ngxs-tools": ["libs/ngxs-tools/src/index.ts"],
+      "@cns-iu/ngxs-tools/decorators": [
+        "libs/ngxs-tools/decorators/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

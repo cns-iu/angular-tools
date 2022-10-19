@@ -34,7 +34,9 @@
       "options": {
         "lintFilePatterns": [
           "libs/ngxs-tools/**/*.ts",
-          "libs/ngxs-tools/**/*.html"
+          "libs/ngxs-tools/**/*.html",
+          "libs/ngxs-tools/decorators/**/*.ts",
+          "libs/ngxs-tools/decorators/**/*.html"
         ]
       }
     }
