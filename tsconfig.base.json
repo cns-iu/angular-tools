@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@cns-iu/ngxs-tools": ["libs/ngxs-tools/src/index.ts"],
+      "@cns-iu/ngxs-tools/actions": ["libs/ngxs-tools/actions/src/index.ts"],
       "@cns-iu/ngxs-tools/decorators": [
         "libs/ngxs-tools/decorators/src/index.ts"
       ]

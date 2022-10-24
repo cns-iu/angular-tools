@@ -36,7 +36,9 @@
           "libs/ngxs-tools/**/*.ts",
           "libs/ngxs-tools/**/*.html",
           "libs/ngxs-tools/decorators/**/*.ts",
-          "libs/ngxs-tools/decorators/**/*.html"
+          "libs/ngxs-tools/decorators/**/*.html",
+          "libs/ngxs-tools/actions/**/*.ts",
+          "libs/ngxs-tools/actions/**/*.html"
         ]
       }
     }
