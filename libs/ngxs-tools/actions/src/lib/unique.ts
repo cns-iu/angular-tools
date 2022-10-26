@@ -1,6 +1,6 @@
 
 /** All registered action types */
-const registeredActionTypes = new Set<string>();
+export const actionTypesRegistry = new Set<string>();
 
 
 /**
@@ -10,10 +10,10 @@ const registeredActionTypes = new Set<string>();
  * @throws If type was previously registered
  */
 export function assertUniqueAction(type: string): void {
-  if (registeredActionTypes.has(type)) {
+  if (actionTypesRegistry.has(type)) {
     const msg = `An action with type '${type}' already exists`;
     throw new Error(msg);
   }
 
-  registeredActionTypes.add(type);
+  actionTypesRegistry.add(type);
 }
